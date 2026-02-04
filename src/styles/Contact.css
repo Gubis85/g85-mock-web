@@ -1,0 +1,269 @@
+/* Contact Page */
+.contact {
+  width: 100%;
+}
+
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-map {
+  max-width: 1000px;
+  margin: 50px auto 0;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 10px 20px rgba(43, 61, 121, 0.08);
+  border: 1px solid rgba(43, 61, 121, 0.08);
+}
+
+.contact-map__header {
+  margin-bottom: 18px;
+}
+
+.contact-map__header h2 {
+  color: #2B3D79;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.contact-map__header p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contact-map__frame {
+  width: 100%;
+  height: 380px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(43, 61, 121, 0.08);
+}
+
+.contact-map__frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.contact-info h2 {
+  color: #2B3D79;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.info-item {
+  margin-bottom: 30px;
+}
+
+.info-item h3 {
+  color: #F48020;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.info-item p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.office-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.office-item {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  column-gap: 12px;
+  align-items: start;
+}
+
+.office-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  margin-top: 6px;
+  box-shadow: 0 0 0 4px rgba(43, 61, 121, 0.08);
+}
+
+.office-details h4 {
+  margin: 0 0 4px;
+  color: #2B3D79;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.office-details p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.office-dot--north-west {
+  background: #7bb6ff;
+}
+
+.office-dot--ho {
+  background: #F48020;
+}
+
+.office-dot--free-state {
+  background: #1B234E;
+}
+
+.office-dot--northern-cape {
+  background: #f4d03f;
+}
+
+.office-dot--eastern-cape {
+  background: #d62728;
+}
+
+.office-dot--western-cape {
+  background: #9467bd;
+}
+
+.office-dot--limpopo {
+  background: #8B5E34;
+}
+
+.office-dot--mpumalanga {
+  background: #1B5E20;
+}
+
+.office-dot--kwa-zulu-natal {
+  background: #7ED957;
+}
+
+.contact-form {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(43, 61, 121, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #2B3D79;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #F48020;
+  box-shadow: 0 0 0 3px rgba(244, 128, 32, 0.1);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #F48020 0%, #d46a1a 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(244, 128, 32, 0.3);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-map {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .contact-map__frame {
+    height: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    gap: 15px;
+  }
+
+  .contact-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .info-item {
+    margin-bottom: 20px;
+  }
+
+  .info-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .info-item p {
+    font-size: 0.95rem;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .contact-map {
+    padding: 18px;
+  }
+
+  .contact-map__header h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact-map__frame {
+    height: 260px;
+  }
+}
