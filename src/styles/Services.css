@@ -33,7 +33,7 @@
   font-size: 0.95rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--theme-orange);
   margin-bottom: 16px;
   font-weight: 600;
 }
@@ -42,7 +42,7 @@
   text-align: left;
   font-size: clamp(2.4rem, 4vw, 3.5rem);
   line-height: 1.1;
-  color: #F48020;
+  color: var(--theme-blue-bright);
   margin-bottom: 20px;
   font-weight: 800;
   text-transform: none;
@@ -79,7 +79,7 @@
 .services .intro {
   text-align: center;
   font-size: 1.12rem;
-  color: #5a668d;
+  color: var(--theme-orange);
   margin: 0 auto 60px;
   max-width: 760px;
   line-height: 1.8;

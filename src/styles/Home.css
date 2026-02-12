@@ -87,7 +87,7 @@
 
 .fun-facts-header h2 {
   font-size: 2.6rem;
-  color: #2B3D79;
+  color: var(--theme-blue);
   font-weight: 800;
   margin-bottom: 12px;
 }
@@ -96,7 +96,7 @@
   max-width: 720px;
   margin: 0 auto;
   font-size: 1.05rem;
-  color: #54608a;
+  color: var(--theme-orange);
   line-height: 1.7;
 }
 
@@ -135,20 +135,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(43, 61, 121, 0.12);
-  color: #2B3D79;
+  background: rgba(244, 128, 32, 0.15);
+  color: #F48020;
 }
 
 .fun-fact-value {
   font-size: 2rem;
   font-weight: 800;
-  color: #2B3D79;
+  color: #F48020;
   margin-bottom: 8px;
 }
 
 .fun-fact-label {
   font-size: 0.95rem;
-  color: #5c6789;
+  color: #F48020;
   letter-spacing: 0.3px;
 }
 
@@ -300,7 +300,7 @@
   font-size: 2rem;
   margin-bottom: 15px;
   font-weight: 700;
-  color: #F48020;
+  color: var(--theme-blue-bright);
   letter-spacing: -0.5px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -309,7 +309,7 @@
   font-size: 1.1rem;
   margin-bottom: 0;
   font-weight: 700;
-  color: #F48020;
+  color: var(--theme-blue-bright);
   letter-spacing: -0.3px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -413,7 +413,7 @@
 }
 
 .indicator:hover {
-  background: #2B3D79;
+  background: var(--theme-orange);
 }
 
 /* Get In Touch Form Section */
@@ -440,7 +440,7 @@
 .form-subtitle {
   text-align: center;
   font-size: 1.1rem;
-  color: #666;
+  color: var(--theme-orange);
   margin-bottom: 50px;
 }
 
@@ -653,7 +653,7 @@
 .headline {
   font-size: 4rem;
   font-weight: 800;
-  color: #F48020;
+  color: var(--theme-blue-bright);
   letter-spacing: -2px;
   line-height: 1.1;
   margin: 0;
@@ -669,7 +669,7 @@
 .tagline {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #F48020;
+  color: var(--theme-orange);
   letter-spacing: 0.5px;
   margin: 0;
   font-style: italic;
@@ -683,7 +683,7 @@
 
 .subheadline {
   font-size: 1.1rem;
-  color: #ff9d45;
+  color: var(--theme-orange);
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.8;
@@ -698,7 +698,7 @@
 
 .trust-line p {
   font-size: 0.95rem;
-  color: #F48020;
+  color: var(--theme-orange);
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;

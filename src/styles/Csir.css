@@ -129,7 +129,7 @@
 .csir-gallery__item figcaption {
   padding: 12px 14px 16px;
   font-size: 0.95rem;
-  color: #3c4a6b;
+  color: var(--theme-orange);
   line-height: 1.4;
 }
 

@@ -39,7 +39,7 @@
   font-size: 0.95rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--theme-orange);
   margin-bottom: 16px;
   font-weight: 600;
 }
@@ -48,7 +48,7 @@
   text-align: left;
   font-size: clamp(2.4rem, 4vw, 3.5rem);
   line-height: 1.1;
-  color: #F48020;
+  color: var(--theme-blue-bright);
   margin-bottom: 20px;
   font-weight: 800;
   letter-spacing: -1px;
@@ -197,7 +197,7 @@
   text-transform: uppercase;
   letter-spacing: 1.6px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--theme-orange);
   margin: 0;
 }
 
@@ -399,7 +399,7 @@
   text-transform: uppercase;
   letter-spacing: 1.6px;
   font-size: 0.75rem;
-  color: rgba(43, 61, 121, 0.6);
+  color: var(--theme-orange);
   font-weight: 700;
   margin: 0;
 }

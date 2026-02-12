@@ -34,7 +34,7 @@
 }
 
 .contact-map__header p {
-  color: #555;
+  color: var(--theme-orange);
   line-height: 1.6;
   margin: 0;
 }
@@ -163,7 +163,7 @@
 .form-group label {
   display: block;
   margin-bottom: 8px;
-  color: #2B3D79;
+  color: var(--theme-orange);
   font-weight: 600;
 }
 

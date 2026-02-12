@@ -271,7 +271,6 @@ export default function Home() {
       >
         <div className="fun-facts-container">
           <div className="fun-facts-header">
-            <p className="fun-facts-kicker">Security At A Glance</p>
             <h2>Quick Trust Builders</h2>
             <p className="fun-facts-subtitle">
               Numbers that reflect vigilance, readiness, and reliability across every site we protect.
